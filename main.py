@@ -4,7 +4,7 @@ import os
 
 # 게임 환경 설정
 pygame.init()
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 1000, 800
 BG_COLOR = (0, 0, 0)
 BLOCK_SIZE = 30
 PLAY_WIDTH, PLAY_HEIGHT = 10 * BLOCK_SIZE, 20 * BLOCK_SIZE
