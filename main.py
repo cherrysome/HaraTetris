@@ -10,6 +10,7 @@ BLOCK_SIZE = 30
 PLAY_WIDTH, PLAY_HEIGHT = 10 * BLOCK_SIZE, 20 * BLOCK_SIZE
 TOP_LEFT_X, TOP_LEFT_Y = (WIDTH - PLAY_WIDTH) // 2, HEIGHT - PLAY_HEIGHT - 50
 #test changes2
+#test changes3
 # 테트리스 블록 클래스
 class Tetromino:
     SHAPES = [
