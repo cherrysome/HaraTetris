@@ -1,6 +1,7 @@
 import pygame
 import random
 import os
+#test 100 200 300
 #test changes
 # 게임 환경 설정
 pygame.init()
