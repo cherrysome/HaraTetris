@@ -1,19 +1,14 @@
 import pygame
 import random
 import os
-#400
-#test 100 200 300
-#test changes
-# 게임 환경 설정
+
 pygame.init()
-WIDTH, HEIGHT = 1000, 800
+WIDTH, HEIGHT = 800, 700
 BG_COLOR = (0, 0, 0)
 BLOCK_SIZE = 30
 PLAY_WIDTH, PLAY_HEIGHT = 10 * BLOCK_SIZE, 20 * BLOCK_SIZE
 TOP_LEFT_X, TOP_LEFT_Y = (WIDTH - PLAY_WIDTH) // 2, HEIGHT - PLAY_HEIGHT - 50
-#test changes2
-#test changes3
-#test cannges4
+
 # 테트리스 블록 클래스
 class Tetromino:
     SHAPES = [
