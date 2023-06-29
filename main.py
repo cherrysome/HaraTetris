@@ -2,6 +2,7 @@ import pygame
 import random
 import os
 
+#test 1
 pygame.init()
 WIDTH, HEIGHT = 800, 700
 BG_COLOR = (0, 0, 0)
